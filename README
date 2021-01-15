@@ -1,0 +1,31 @@
+Student: Miruna-Elena Banu
+Group: 331CA
+
+Project description:
+    The current program represents a Glypho language interpreter. It reads
+a string of characters from a file given as parameter and decodes and executes
+certain instructions.
+    The program begins by decoding the given instructions and then executes
+them one by one. Its main functionality is based on a stack that keeps the
+intermediary variables.
+
+Files:
+    main.py - The main file of the program, implements the basic functionality
+              of the algorithm.
+
+    functions.py -  Implements the helper functions for the main program:
+
+                    read_file - Reads the commands from the given file
+                    decode_instruc - Decodes the given instructions
+                    check_braces - Verifies if the braces match
+                    execute_instr - Executes the current instruction
+                    deci_2_base - Transforms a decimal to a given base
+                    check_base - Checks if the number can be in a given base
+                    get_lbrace - Returns the corresponding l-brace
+
+    operations.py - Implements the operations of the glypho program and checks
+                    for errors.
+
+Mentions: I get a timeout error for 2 tests on vmchecker but locally they pass
+          just fine.
+          
